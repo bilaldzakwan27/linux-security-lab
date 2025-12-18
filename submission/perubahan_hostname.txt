@@ -1,0 +1,8 @@
+hostname lama :
+kali
+
+hostname baru :
+bilal-lab
+
+command yang digunakan :
+sudo hostnamectl set-hostname bilal-lab
