@@ -10,4 +10,8 @@ fungsi = menampilkan baris yang tidak mengandung security
 grep -n security lab_targets.txt 
 fungsi = menampilkan nomor baris di pencarian
 
+cut -d: -f1 lab_targets.txt
+fungsi = mengambil kolom IP dari file 
 
+awk -F: '{print $1}' lab_targets.txt
+fungsi = mengambil kolom pertama (ip) menggunakan awk 
