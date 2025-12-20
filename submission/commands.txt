@@ -1,0 +1,13 @@
+grep security lab_Targets.txt
+fungsi = mencari kata security dalam file
+
+grep -i security lab_targets.txt
+fungsi = mencari kata security tanpa memperhatikan hufur besar/kecil
+
+grep -v security lab_targets.txt
+fungsi = menampilkan baris yang tidak mengandung security
+
+grep -n security lab_targets.txt 
+fungsi = menampilkan nomor baris di pencarian
+
+
