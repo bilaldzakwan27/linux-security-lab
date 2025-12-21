@@ -17,10 +17,13 @@ awk -F: '{print $1}' lab_targets.txt
 fungsi = mengambil kolom pertama (ip) menggunakan awk 
 
 sort ip_list.txt
-fungsi: mengurutkan data
+fungsi = mengurutkan data
 
 uniq
-fungsi: menghapus data duplikat
+fungsi = menghapus data duplikat
 
 wc -l
-fungsi: menghitung jumlah baris
+fungsi =  menghitung jumlah baris
+
+pipeline 
+fungsi = menghubungkan output satu command ke command lain 
