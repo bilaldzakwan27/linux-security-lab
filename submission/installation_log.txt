@@ -1,0 +1,32 @@
+Installation Log
+================
+
+Date: 19 December 2025
+OS: Kali Linux
+
+System Update:
+- apt update & upgrade executed
+- Packages upgraded:
+Kernel: Updated to 6.17.10+kali-amd64.
+
+Core Libraries: Glibc updated to 2.42-5, Systemd updated to 259~rc3-1.
+
+Runtimes: Python 3.13, PHP 8.4, OpenJDK 21, Perl 5.40, LLVM 18/19.
+
+Databases: PostgreSQL 18.1, MariaDB 11.8.5.
+
+Security Tools: Metasploit 6.4.102, Sqlmap 1.9.12, Wifite 2.8.2, ExploitDB (Dec 2025 update), Mitmproxy 12.2.1.
+
+Environment: Chromium 143.0.7499.109, Kali Themes & Desktop Base updated.
+
+Summary: Total 433 packages upgraded, 23 new installed.
+
+Installed Tools:
+- nmap        : (7.98)
+- wireshark   : (4.6.0.)
+- tcpdump     : (4.99.5)
+- aircrack-ng : installed
+- burpsuite   : installed
+
+Status:
+All tools installed successfully.
