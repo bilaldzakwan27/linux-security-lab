@@ -15,3 +15,12 @@ fungsi = mengambil kolom IP dari file
 
 awk -F: '{print $1}' lab_targets.txt
 fungsi = mengambil kolom pertama (ip) menggunakan awk 
+
+sort ip_list.txt
+fungsi: mengurutkan data
+
+uniq
+fungsi: menghapus data duplikat
+
+wc -l
+fungsi: menghitung jumlah baris
