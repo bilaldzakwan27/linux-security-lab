@@ -1,0 +1,33 @@
+Network Information 
+
+===================
+
+interface : eth0
+IP address : 192.168.x.x
+netmask : /24
+gateway : 192.168.x.1
+
+
+command used =
+- ip addr show
+- ip route show
+
+port discovery 
+================
+
+listening ports :
+
+- 22/tcp : status ssh
+
+
+ssh configuration
+================
+
+SSH service : enabled
+SSH port : 22
+SSH service : success
+
+SSH command for windows : 
+ssh kali@192.168.56.101
+
+
