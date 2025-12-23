@@ -1,0 +1,22 @@
+SSH Configuration Parameters
+============================
+
+Port
+- Menentukan port yang digunakan oleh SSH server.
+- Default: 22
+
+PermitRootLogin
+- Mengatur apakah user root boleh login via SSH.
+- Untuk keamanan biasanya diset no.
+
+PasswordAuthentication
+- Mengatur apakah login SSH boleh menggunakan password.
+- Disarankan no jika sudah menggunakan SSH key.
+
+PubkeyAuthentication
+- Mengatur autentikasi menggunakan SSH key.
+- Lebih aman dibanding password.
+
+MaxAuthTries
+- Jumlah maksimal percobaan login sebelum koneksi ditutup.
+- Mencegah brute force attack.
