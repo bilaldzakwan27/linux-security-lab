@@ -31,3 +31,17 @@ SSH command for windows :
 ssh kali@192.168.56.101
 
 
+Network Configuration Files
+===========================
+
+Kali Linux does not use netplan by default.
+Network configuration is handled using:
+
+- /etc/network/interfaces
+- NetworkManager
+
+Commands used:
+- cat /etc/network/interfaces
+- ip addr show
+- ip route show
+- cat /etc/resolv.conf
